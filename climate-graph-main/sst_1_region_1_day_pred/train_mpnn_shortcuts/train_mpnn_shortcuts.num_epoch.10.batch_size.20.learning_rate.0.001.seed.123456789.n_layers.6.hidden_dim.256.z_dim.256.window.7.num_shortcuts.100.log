@@ -1,0 +1,175 @@
+--------------------------------------
+Epoch 0
+Batch 0/676: Loss = 0.9933400750160217
+Batch 100/676: Loss = 0.12967507541179657
+Batch 200/676: Loss = 0.16020207107067108
+Batch 300/676: Loss = 0.15463976562023163
+Batch 400/676: Loss = 0.1543368548154831
+Batch 500/676: Loss = 0.15143194794654846
+Batch 600/676: Loss = 0.10305362194776535
+Train average loss: 0.16373395191274098
+Train MAE: 0.2853101311553089
+Train time = 104.75683
+Valid Batch 0/18: Loss = 0.08546190708875656
+Valid average loss: 0.09730246952838367
+Valid MAE: 0.22183958521250388
+Valid time = 2.03622
+Current best MAE updated: 0.22183958521250388
+Save the best model to ./train_mpnn_shortcuts//train_mpnn_shortcuts.num_epoch.10.batch_size.20.learning_rate.0.001.seed.123456789.n_layers.6.hidden_dim.256.z_dim.256.window.7.num_shortcuts.100.model
+--------------------------------------
+Epoch 1
+Batch 0/676: Loss = 0.1582954376935959
+Batch 100/676: Loss = 0.16851221024990082
+Batch 200/676: Loss = 0.11694124341011047
+Batch 300/676: Loss = 0.1409335881471634
+Batch 400/676: Loss = 0.1881648451089859
+Batch 500/676: Loss = 0.15818539261817932
+Batch 600/676: Loss = 0.12470080703496933
+Train average loss: 0.15004317847097062
+Train MAE: 0.27213439437813364
+Train time = 101.11047
+Valid Batch 0/18: Loss = 0.06156882271170616
+Valid average loss: 0.07807562024229103
+Valid MAE: 0.20415138552456744
+Valid time = 2.02330
+Current best MAE updated: 0.20415138552456744
+Save the best model to ./train_mpnn_shortcuts//train_mpnn_shortcuts.num_epoch.10.batch_size.20.learning_rate.0.001.seed.123456789.n_layers.6.hidden_dim.256.z_dim.256.window.7.num_shortcuts.100.model
+--------------------------------------
+Epoch 2
+Batch 0/676: Loss = 0.19234611093997955
+Batch 100/676: Loss = 0.1261448860168457
+Batch 200/676: Loss = 0.1845584213733673
+Batch 300/676: Loss = 0.12919308245182037
+Batch 400/676: Loss = 0.09949740022420883
+Batch 500/676: Loss = 0.15901245176792145
+Batch 600/676: Loss = 0.21193982660770416
+Train average loss: 0.14889599164650286
+Train MAE: 0.2707874937383773
+Train time = 100.74859
+Valid Batch 0/18: Loss = 0.06780634075403214
+Valid average loss: 0.09031050321128634
+Valid MAE: 0.21803079293722843
+Valid time = 2.01708
+--------------------------------------
+Epoch 3
+Batch 0/676: Loss = 0.17323514819145203
+Batch 100/676: Loss = 0.14476825296878815
+Batch 200/676: Loss = 0.13555465638637543
+Batch 300/676: Loss = 0.14237788319587708
+Batch 400/676: Loss = 0.12766443192958832
+Batch 500/676: Loss = 0.17138893902301788
+Batch 600/676: Loss = 0.13655298948287964
+Train average loss: 0.14829004552634156
+Train MAE: 0.27003044641236695
+Train time = 100.98593
+Valid Batch 0/18: Loss = 0.06121571362018585
+Valid average loss: 0.07849610410630703
+Valid MAE: 0.20472005890290387
+Valid time = 2.04462
+--------------------------------------
+Epoch 4
+Batch 0/676: Loss = 0.18829163908958435
+Batch 100/676: Loss = 0.12407907843589783
+Batch 200/676: Loss = 0.13779272139072418
+Batch 300/676: Loss = 0.12140538543462753
+Batch 400/676: Loss = 0.1306011825799942
+Batch 500/676: Loss = 0.13162250816822052
+Batch 600/676: Loss = 0.1484033167362213
+Train average loss: 0.14794830116030028
+Train MAE: 0.26957799763869866
+Train time = 102.45127
+Valid Batch 0/18: Loss = 0.05814402922987938
+Valid average loss: 0.0757107086893585
+Valid MAE: 0.20137322888176015
+Valid time = 2.05940
+Current best MAE updated: 0.20137322888176015
+Save the best model to ./train_mpnn_shortcuts//train_mpnn_shortcuts.num_epoch.10.batch_size.20.learning_rate.0.001.seed.123456789.n_layers.6.hidden_dim.256.z_dim.256.window.7.num_shortcuts.100.model
+--------------------------------------
+Epoch 5
+Batch 0/676: Loss = 0.17342495918273926
+Batch 100/676: Loss = 0.11722694337368011
+Batch 200/676: Loss = 0.19751286506652832
+Batch 300/676: Loss = 0.1290569007396698
+Batch 400/676: Loss = 0.14450158178806305
+Batch 500/676: Loss = 0.13398294150829315
+Batch 600/676: Loss = 0.1414533257484436
+Train average loss: 0.14754704176586056
+Train MAE: 0.2690705500753403
+Train time = 101.49926
+Valid Batch 0/18: Loss = 0.05664518475532532
+Valid average loss: 0.07399640294412772
+Valid MAE: 0.19878318706112275
+Valid time = 2.04128
+Current best MAE updated: 0.19878318706112275
+Save the best model to ./train_mpnn_shortcuts//train_mpnn_shortcuts.num_epoch.10.batch_size.20.learning_rate.0.001.seed.123456789.n_layers.6.hidden_dim.256.z_dim.256.window.7.num_shortcuts.100.model
+--------------------------------------
+Epoch 6
+Batch 0/676: Loss = 0.12517684698104858
+Batch 100/676: Loss = 0.11445635557174683
+Batch 200/676: Loss = 0.11862841993570328
+Batch 300/676: Loss = 0.14292871952056885
+Batch 400/676: Loss = 0.14448107779026031
+Batch 500/676: Loss = 0.1447751820087433
+Batch 600/676: Loss = 0.20498065650463104
+Train average loss: 0.1474125240461008
+Train MAE: 0.2687711341314213
+Train time = 101.40226
+Valid Batch 0/18: Loss = 0.05886443331837654
+Valid average loss: 0.07577118919127518
+Valid MAE: 0.20215764619340665
+Valid time = 2.03837
+--------------------------------------
+Epoch 7
+Batch 0/676: Loss = 0.13739842176437378
+Batch 100/676: Loss = 0.14230778813362122
+Batch 200/676: Loss = 0.16716866195201874
+Batch 300/676: Loss = 0.1463889479637146
+Batch 400/676: Loss = 0.15162312984466553
+Batch 500/676: Loss = 0.1501193791627884
+Batch 600/676: Loss = 0.17377111315727234
+Train average loss: 0.1473110726092165
+Train MAE: 0.26867433283452435
+Train time = 101.42652
+Valid Batch 0/18: Loss = 0.05516474321484566
+Valid average loss: 0.07530293841328886
+Valid MAE: 0.20178584926991194
+Valid time = 2.04674
+--------------------------------------
+Epoch 8
+Batch 0/676: Loss = 0.13861681520938873
+Batch 100/676: Loss = 0.11502858996391296
+Batch 200/676: Loss = 0.13825953006744385
+Batch 300/676: Loss = 0.19598327577114105
+Batch 400/676: Loss = 0.10526621341705322
+Batch 500/676: Loss = 0.1477988362312317
+Batch 600/676: Loss = 0.1573271006345749
+Train average loss: 0.14718738190565236
+Train MAE: 0.26847918115286995
+Train time = 101.26957
+Valid Batch 0/18: Loss = 0.05890529975295067
+Valid average loss: 0.0756760115424792
+Valid MAE: 0.20121430939876242
+Valid time = 2.02801
+--------------------------------------
+Epoch 9
+Batch 0/676: Loss = 0.15976807475090027
+Batch 100/676: Loss = 0.10663004964590073
+Batch 200/676: Loss = 0.14194154739379883
+Batch 300/676: Loss = 0.17864516377449036
+Batch 400/676: Loss = 0.14097315073013306
+Batch 500/676: Loss = 0.13493633270263672
+Batch 600/676: Loss = 0.1630503237247467
+Train average loss: 0.14683111782389632
+Train MAE: 0.26816989244870715
+Train time = 101.12613
+Valid Batch 0/18: Loss = 0.058386679738759995
+Valid average loss: 0.07507690021561252
+Valid MAE: 0.20043534471262026
+Valid time = 2.03086
+--------------------------------------
+Best valid MAE: 0.19878318706112275
+Test Batch 0/18: Loss = 0.04737314209342003
+--------------------------------------
+Test average loss: 0.05259829704221841
+Test MAE: 0.16793917768933864
+Test time = 13.83858

@@ -1,0 +1,24 @@
+# tune gcn
+program: main.py
+method: grid
+parameters:
+  gnn.layers_mp:
+    values: [0, 1, 2, 3]
+  optim.max_epoch:
+    values: [1000]
+  posenc_LapPE.enable:
+    values: [True]
+  dataset.name:
+    values: ['ncsu-v6-full-1-clique', 'ncsu-v6-full-2-clique', 'ncsu-v6-full-3-clique', 'ncsu-v6-full-4-clique',]
+  posenc_LapPE.eigen.max_freqs:
+    values: [30]
+  num_threads:
+    values: [2]
+
+command:
+  - ${env}
+  - python
+  - ${program}
+  - "--cfg"
+  - 'configs/GCN/NCSU-GCN.yaml'
+  - ${args_no_hyphens}

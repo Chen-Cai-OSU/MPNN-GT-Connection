@@ -1,0 +1,27 @@
+# try different convs
+program: main.py
+method: grid
+parameters:
+  gnn.layers_mp:
+    values: [0, 2, ]
+  gnn.layer_type:
+    values: ['gcnconv']
+  optim.max_epoch:
+    values: [1000, 2000]
+  posenc_LapPE.enable:
+    values: [True, False]
+  dataset.name:
+    values: ['ncsu-v6-full-1-clique', 'ncsu-v6-full-2-clique', 'ncsu-v6-full-3-clique', 'ncsu-v6-full-4-clique',
+             'ncsu-v6-full-5-clique', 'ncsu-v6-full-6-clique', 'ncsu-v6-full-7-clique', 'ncsu-v6-full-8-clique',]
+  posenc_LapPE.eigen.max_freqs:
+    values: [30]
+  num_threads:
+    values: [2]
+
+command:
+  - ${env}
+  - python
+  - ${program}
+  - "--cfg"
+  - 'configs/GCN/NCSU-GCN.yaml'
+  - ${args_no_hyphens}

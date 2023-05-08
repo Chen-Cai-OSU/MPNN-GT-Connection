@@ -1,0 +1,26 @@
+# try different convs
+program: main.py
+method: grid
+parameters:
+  gnn.layers_mp:
+    values: [8]
+  model.type:
+    values: ['custom_gnn', 'custom_virtual_gnn', ]
+#  gnn.layer_type:
+#    values: ['gatconv', 'gcnconv', 'sageconv',]
+#  gnn.dim_inner:
+#    values: [128, 256]
+  optim.max_epoch:
+    values: [500]
+#  dataset.name:
+#    values: ['ncsu-v6-full-1-clique', 'ncsu-v6-full-2-clique', 'ncsu-v6-full-3-clique', 'ncsu-v6-full-4-clique',]
+#  num_threads:
+#    values: [2]
+
+command:
+  - ${env}
+  - python
+  - ${program}
+  - "--cfg"
+  - 'configs/GINE/zinc-GINE.yaml'
+  - ${args_no_hyphens}

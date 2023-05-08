@@ -1,0 +1,20 @@
+# GT
+program: main.py
+method: grid
+parameters:
+  optim.max_epoch:
+    values: [1000]
+  posenc_LapPE.eigen.max_freqs:
+    values: [ 30 ]
+  dataset.name:
+    values: ['ncsu-v6-full-1-clique', 'ncsu-v6-full-2-clique', 'ncsu-v6-full-3-clique', 'ncsu-v6-full-4-clique',]
+  num_threads:
+    values: [2]
+
+command:
+  - ${env}
+  - python
+  - ${program}
+  - "--cfg"
+  - 'configs/GT/NCSU-Transformer+LapPE.yaml'
+  - ${args_no_hyphens}
