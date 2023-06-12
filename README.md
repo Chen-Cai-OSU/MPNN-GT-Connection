@@ -1,4 +1,12 @@
+![fig](./fig.png)
+
 This is the code repository for the ICML 2023 paper *On the Connection Between MPNN and Graph Transformer*. There are three folders corresponding to the three experiment subsections.
+
+Experiments has three parts 
+
+* MPNN + VN is a surprisingly strong baseline, outperforming GT on the recently proposed Long Range Graph Benchmark (LRGB) dataset
+* our MPNN + VN improves over early implementation on a wide range of OGB datasets 
+* MPNN + VN outperforms Linear Transformer and MPNN on the climate modeling task.
 
 The `lrgb` contains the code for section 7.1 where we showed adding virtual node can significantly improve the result on lrgb datasets. The code is modified from the original lrgb paper. See [Readme](./lrgb/README.md) for instructions. 
 
