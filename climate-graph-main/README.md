@@ -16,5 +16,31 @@ All the models are stored in ```models/```:
 * ```pyg/```: PyTorch geometric (Pyg) implementation of graph neural networks, graph convolution, positional encodings.
 * ```pytorch/```: PyTorch implementation of other baselines.
 
+## Sea Surface Temperature (DOISST version 2.1)
 
+<p align="center">
+  <img src="sst_1_region_1_day_pred/target.window.1.gif" width="300" title="Ground-truth">
+  <img src="sst_1_region_1_day_pred/predict.window.1.gif" width="300" alt="Prediction">
+  <br>
+  Historical window of 1 day: ground-truth (left) and prediction (right) by GCN with adding shortcuts
+</p>
 
+<p align="center">
+  <img src="sst_1_region_1_day_pred/target.window.7.gif" width="300" title="Ground-truth">
+  <img src="sst_1_region_1_day_pred/predict.window.7.gif" width="300" alt="Prediction">
+  <br>
+  Historical window of 7 days: ground-truth (left) and prediction (right) by GCN with adding shortcuts
+</p>
+
+<p align="center">
+  <img src="sst_1_region_1_day_pred/target.window.28.gif" width="300" title="Ground-truth">
+  <img src="sst_1_region_1_day_pred/predict.window.28.gif" width="300" alt="Prediction">
+  <br>
+  Historical window of 28 days: ground-truth (left) and prediction (right) by GCN with adding shortcuts
+</p>
+
+<p align="center">
+  <img src="sst_11_regions/figure.png" width="1000" title="Comparison">
+  <br>
+  Comparison between different models on the testing set in the setting of 6 weeks history to predict 7 days ahead. 
+</p>
